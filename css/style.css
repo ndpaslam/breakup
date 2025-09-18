@@ -1,0 +1,42 @@
+/* Reset basic */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ffe6eb, #ffffff); /* gradasi pink pastel */
+}
+
+/* Box pesan */
+.message {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  color: #e63946;
+  padding: 30px 40px;
+  border-radius: 20px;
+  background: #fff0f5; /* pink soft */
+  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+  border: 1px solid #f8c9d6;
+}
+
+.note {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #555;
+}
+
+.subtext {
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  opacity: 0.2;
+  margin-top: 10px;
+  font-style: italic;
+}
